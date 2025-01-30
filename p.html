@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Page</title>
+    </head>
+    <style>
+        body{
+            background-color:#d4e6f2;;
+        }
+        .name:hover {
+            background-color: white;
+        }
+        .name, .password {
+            width: 350px;
+            height: 35px;
+            border-radius: 5px;
+            border: 1px solid #ddd; /* Light gray border */
+            padding: 0 10px;
+            margin-bottom: 12px; /* Space between fields */
+            box-sizing: border-box;
+        }
+        .login-button{
+            width: 350px;
+            height: 45px;
+            border-radius: 5px;
+            border: 1px solid #ddd; /* Light gray border */
+            padding: 0 10px;
+            margin-bottom: 12px; /* Space between fields */
+            box-sizing: border-box;
+            color:white;
+            font-weight: bold;
+            font-size:20px;
+            background-color:#316FF6;
+        }
+        .login-button:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+        }
+        .login-button:active {
+            background-color: #004494;
+            transform: scale(0.98);
+        }
+        span{
+            color:rgb(72, 72, 253);
+            font-size:15px;
+        }
+        .divider {
+            margin: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .form-container {
+            background-color: white;
+            padding: 40px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+            border-radius: 8px;
+            width: 330px;
+            text-align: center;
+        }
+        .account{
+            color:white;
+            width:200px;
+            height:50px;
+            font-weight:bold;
+            font-size:18px;
+            font-family:cursive;
+            border-color:#42b72a;
+            background-color:#42b72a;
+            border-radius:10px;
+        }
+        label{
+            color:#1877f2;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size:24px;
+            font-weight:bold;
+        }
+    </style>
+    <body>
+        <form><br><br><br><br><br><br>
+            <center>
+            <div class="form-container">
+                <label >Facebook</label><br><br>
+                <input type="text" class="name" placeholder="Email or phone number"><br>
+                <input type="password" class="password" placeholder="Password"><br>
+                <a href="fl.html"><input type="button" class="login-button" value="Log In"></a><br><br>
+                <a href="#" class="forgot-password">Forgotten password?</a><br>
+                <div class="divider"></div><br>
+                <a href="c.html"><input type="button" class="account" value="Create new account"></a>
+            </div>
+        </form>
+    </center>
+    </body>
+</html>

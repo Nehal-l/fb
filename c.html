@@ -1,0 +1,139 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>Sign Up</title>
+    </head>
+    <style>
+        body{
+            background-color: rgb(235, 235, 236);
+        }
+        h1{
+            font-size:60px;
+            color: 	#1376f7;
+            font-family:Helvetica,Arial, sans-serif;
+            font-weight:bold;
+            text-align:center;
+            padding:10px;
+        }
+        .form-container {
+            background-color: white;
+            padding: 50px;
+            box-shadow: 0 10px 8px rgba(0, 0, 0, 0.1); 
+            border-radius: 8px;
+            width: 330px;
+        }
+        label{
+            font-family:Helvetica,Arial, sans-serif;
+            font-weight:bold;
+            color:black;
+            font-size:25px;
+        }
+        span{
+            color:grey;
+            font-family:Helvetica,Arial, sans-serif;
+        }
+        .divider {
+            margin: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .input-container input {
+            width: 48%; 
+            padding: 10px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            font-family:Helvetica,Arial, sans-serif;
+        }
+        select{
+            border-radius: 20px;
+            border-width:10px;
+            border-color:rgb(208, 188, 188);
+            outline: black;
+        }
+        .box{
+            width:100px;
+            height:30px;
+            padding:10px;
+        }
+        .bd{
+            width:100px;
+            height:30px;
+            padding:10px;
+        }
+        .y{
+            width:100px;
+            height:30px;
+            padding:10px;
+        }
+        .t{
+            width: 320px; 
+            padding: 10px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            font-family:Helvetica,Arial, sans-serif;
+        }
+        .info-text {
+        font-size: 10px;
+        color: #555;
+        line-height: 1.5;
+        text-align:left;
+        font-family:Helvetica,Arial, sans-serif;
+    }
+    .a{
+        font-family:Helvetica,Arial, sans-serif;
+        text-decoration: none;
+    }
+    .account{
+            color:white;
+            width:200px;
+            height:50px;
+            font-weight:bold;
+            font-size:18px;
+            font-family:cursive;
+            border-color:#42b72a;
+            background-color:#42b72a;
+            border-radius:10px;
+    }
+    .p{
+        color:rgb(137, 137, 250);
+        text-decoration:none;
+        font-size:20px;
+    }
+    </style>
+    <body>
+        <h1>facebook</h1>
+        <center>
+            <div class="form-container">
+                <label>Create a new account</label><br>
+                <span>It's quick and easy.</span><br><br>
+                <div class="divider"></div><br>
+                <div class="input-container">
+                    <input type="text" placeholder="First name">&nbsp;&nbsp;
+                    <input type="text" placeholder="Surname">
+                </div><br><br>
+                <span>Date of birth</span><br><br>
+                <div class="Date">
+                <input type="number" class="box" min="1" max="31" placeholder="30">&nbsp;&nbsp;
+                <input type="number" class= "bd" min="1" max="12" placeholder="01">&nbsp;&nbsp;
+                <input type="number" class="y"   min="1905" max="2025" placeholder="2025">
+                </div><br>
+                <span>Gender</span><br><br>
+                <input  type="radio" name="gender" value="male"><b>Male</b>
+                <input  type="radio" name="gender" value="female"><b>Female</b> 
+                <input  type="radio" name="gender" value="custom"><b>Custom</b><br><br>
+            <input type="text" class="t" placeholder="Mobile number or email address"><br><br>
+            <input type="text" class="t" placeholder="New password"><br>
+            <div class="info-text">
+                <p>People who use our service may have uploaded your contact information to Facebook. 
+                <a target="blank"  href="https://www.facebook.com/help/637205020878504" class="a">Learn more.</a></p>
+                <p>By clicking Sign Up, you agree to our
+        <a target="blank" href="https://www.facebook.com/legal/terms/update" class="a">Terms,</a>
+        <a target="blank" href="https://www.facebook.com/privacy/policy/?entry_point=data_policy_redirect&entry=0" class="a"> Privacy Policy</a>
+        and <a target="black" href="https://www.facebook.com/privacy/policies/cookies/?entry_point=cookie_policy_redirect&entry=0" class="a">Cookies Policy</a>
+        You may receive SMS notifications from us and can opt out at any time.
+                </p>
+                <center><input type="button" class="account" value="Sign Up"></a></center><br><br>
+                <center><a class="p" href="p.html">Already Haven an account?</a></center>
+            </div>
+        </center>
+    </body>
+</html>
